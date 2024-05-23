@@ -1,0 +1,200 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body{
+  position: relative;
+}
+
+section{
+  width: 100%;
+  padding: 3vh 8vw;
+}
+
+.navbar{
+  background-color: rgb(196,190,82);
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: calc(14px + 0.5vw);
+}
+
+.nav-link{
+  color: rgb(32,66,111);
+  padding: 1vw
+}
+
+.navbar-brand {
+  transition: 50ms ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
+
+#hero-section{
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.7)),url("img/Hero-image.jpg");
+  background-size: contain;
+  background-position: top;
+  background-attachment: fixed;
+  padding: 11%;
+  margin-top: 4.7vw;
+  text-align: center;
+}
+
+#hero-section .container{
+  color: white;
+  font-family: 'Genos', sans-serif;
+}
+
+#headshot{
+  border: 1vw double rgb(102,202,206);
+  border-radius: 50%;
+  width: 23vw;
+  margin: 8px;
+}
+
+#mission-section{
+  background-color:rgb(83,180,199);
+  font-family: 'Rokkitt', serif;
+}
+
+#mission-section h1{
+  color:white;
+}
+
+#mission-section img{
+  width: 30vw;
+  min-width: 6cm;
+  margin: 0 2vw;
+  padding-bottom: 2vw;
+}
+
+#mission-section p{
+  padding: 1% 2% 0% 2%;
+  font-size:calc(15px + 0.5vw);
+  color: #0E3044;
+  text-align: justify;
+}
+
+#skills-section{
+  background-color: #CCE166;
+  font-family: 'Rokkitt', serif;
+  padding: 3vh 3vw;
+}
+
+#skills-section h1{
+  color:#18435A;
+  padding: 0 0 2% 0;
+}
+
+#skills-section h4{
+  text-align: center;
+} 
+
+#skills-section p{
+  text-align: justify;
+}
+
+#skills-section .container{
+  padding: 5px 30px;
+}
+
+#education-section{
+  background-color: #0A5F71;
+  color: #F5E9CF;
+  font-family: 'Rokkitt', serif;
+  font-size: 1.5vw;
+  font-size:calc(18px + 0.5vw);
+}
+
+#education-section img{
+  width: 25vw;
+  min-width: 5cm;
+  margin: 0 4%;
+  transition: 10s ease;
+}
+
+#education-section img:hover{
+  transform: rotate(360deg);
+}
+
+#education-section p{
+  padding: 10px;
+}
+
+#inspiration-section{
+  background-color:#b5c45f;
+  color: white;
+  font-family: 'Rokkitt', serif;
+}
+
+#inspiration-section h1{
+  padding: 0 0 2% 0;
+  color: #346B6F;
+}
+
+#carouselExampleCaptions{
+  width: 70vw;
+  min-width: 9.5cm;
+}
+
+#quote{
+  font-size: calc(12px + 1vw);
+  padding: 0.1px;
+}
+
+#person{
+  font-size: calc(12px + 0.7vw);
+}
+
+.carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.carousel-item:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.carousel-caption{
+  z-index: 1;
+}
+
+#contact-section{
+  background-color: rgb(105,194,200);
+}
+
+#contact-section h1{
+  font-family: 'Rokkitt', serif;
+  color: #FFFBDB;
+}
+
+#contact-section i{
+  font-size: 300%;
+  transition: 50ms ease;
+  color: #24627c;
+}
+
+#contact-section i:hover {
+  color:rgb(25,54,85);
+}
+
+#footer-section{
+  background-color: #083649;
+  color:  white;
+  font-family: 'Montserrat', sans-serif;
+  vertical-align: middle;
+}
+
+#mission-section-target, #skills-section-target, #inspiration-section-target, #contact-section-target, #education-section-target{
+  position: relative;
+  top: calc(-83px);
+}
+
+#hero-section-target{
+  position: relative;
+  top: -220px;
+}
